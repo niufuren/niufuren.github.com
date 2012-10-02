@@ -1,1 +1,161 @@
-hello
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Mihaela A. Bornea</title>
+	
+	<style type="text/css" media="screen">
+		html, body 		{ margin: 0; padding: 0; }
+		body 			{ color: #333; font: 12px Helvetica, Arial, sans-serif; line-height: 18px; }
+		h2				{ color: #333; }
+		a				{ color: #337810; }
+		p				{ margin: 0 0 18px; }
+		#wrapper		{ float: right; width: 100%; margin-left: -225px; }
+		
+		/* Header */
+		#header			{ background: #eee; border-bottom: 2px solid #ddd; }
+		#header h1  	{ color: #004b6f; margin: 0 0 3px; padding: 24px 18px 0; }
+		#header p		{ color: #666; font-size: 11px; font-weight: bold; padding: 0 18px; }
+		
+		/* Content Style */
+		#navigation		{ border-bottom: 1px solid #ccc; padding-left: 18px; }
+		#navigation ul	{ padding: 0 18px 9px; }
+		#extra			{ border-bottom: 1px solid #ccc; padding-left: 18px; }
+		#extra small	{ font-size: 11px; line-height: 18px; }
+		#content p, #extra p { padding-right: 18px; }
+		
+		/* Content Positioning & Size */
+		#navigation		{ float: left; width: 200px; }
+		#content		{ margin-left: 243px; }
+		#extra			{ float: left; clear: left; width: 200px; }		/* Footer */
+		#footer			{ background: #333; border-bottom: 2px solid #999; clear: both; width: 100%; }
+		#footer a		{ color: #eee; }
+		#footer	p		{ color: #ccc; margin: 0; padding: 0 18px 10px; }
+		#footer ul		{ border-bottom: 1px solid #555; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; }
+		#footer li		{ display: inline; font-size: 11px; font-weight: bold; padding-right: 5px; }
+	</style>
+	<!--[if IE]>
+	<style type="text/css">
+	    #navigation, #content, #extra { margin-top: 20px; }
+	</style>
+	<![endif]-->
+</head><body>
+	<div id="container">
+		<div id="header">
+			<h1>Mihaela A. Bornea</h1>
+			<p class="description"></p>
+		</div>
+		<div id="wrapper">
+			<div id="content">
+				<h4><font color="#004080">Hello and thank you for visiting my web page.<a name="home"></a></font></h4>
+				I am a fouth-year Ph.D. student in the department of Informatics at Athens University of Economics and Business. My research is in database systems with Professor Vasilis Vassalos.<br /> <br />
+				<hr />
+				<h2><font color="#004080">Contact information<a name="contact"></a></font></h2>
+				<p><b>Postal address</b><br />
+				   Informatics Department<br />
+				   Athens University of Economics and Business (A.U.E.B)<br />
+				   76 Patission St., Athens GR 104 34<br />
+				   GREECE<br />
+				   <br />
+				   tel:   +30 210 8203 157<br />
+				   email: mihaela@aueb.gr
+				   </p>
+				   <hr />
+				   <h2><font color="#004080">Research Interests<a name="research"></a></font></h2>
+					<ul type="circle">
+					<li><b>Query Processing.</b> The main focus of my thesis is on adaptive join algorithms for streamed and semi-streamed data. We have developed DINER, an algorithm for joining two finite streams with large applicability in data integration and online aggregation. Our publication describing this algorithm received the best student paper award in ICDE 2009. Next we developed MINER, a multi-way join operator that extends the main ideas of DINER to multiple inputs. <br />
+SSIJ is a Semi-Streamed Index Join algorithm with applicability in active data warehouses or DSMS systems where the join between a continuous stream and a local, on-disk relation represents a fundamental operation.<br /><br />
+</li>
+<li><b>Transaction Processing on Replicated Databases.</b> During my internship at Microsoft Research I was working on a novel transaction isolation level suitable for replicated database systems. We developed Serializable Generalized Snapshot Isolation, a concurrency control algorithm that ensures serializable transaction execution in replicated databases.<br /><br /></li>
+<li><b>Physical Design Tuning.</b> I am currently studying techniques for automatic index management in a database system. We are investigating the effect of introducing an extra option in a database systems, which is not to propagate updates to certain indices based on their contribution to the execution of the workload statements.</li>
+					</ul> 
+				   <hr />
+				   <h2><font color="#004080">Publications.<a name="publications"></a></font></h2>
+				<h4>Conferences</h4>
+				<ol type="1">
+ 
+				<li>Double Index Nested-loop Reactive Join for Result Rate Optimization [<font color="#000080">** best student paper award **</font>] (<A href="diner09.pdf">pdf</A>) <br />
+				Mihaela A. Bornea, Vasilis Vassalos, Yannis Kotidis, Antonios Deligiannakis<br />
+				In Proc. of the of the 25th International Conference on Data Engineering (ICDE)<br />
+				Shanghai, China, March 2009<br /><br /></li>
+				
+				<li>1-Copy Serializability with Snapshot Isolation under the Hood<br />
+				Mihaela A. Bornea, Sameh Elnikety, Orion Hodson<br />
+				Under submission to VLDB 2010 <br /><br /</li>
+				
+				<li>Balancing HTTP Traffic Using Dynamically Updated Weights, an Implementation Approach<br />
+				A. Karakos, D. Patsas, A. Bornea, Sotirios Kontogiannis<br />
+				In Proc. of Panhellenic Conference on Informatics 2005 <br /></li>
+								</ol>
+				<h4>Journals</h4>
+				<ol type="1">
+ 				<li>Adaptive Join Operators for Result Rate Optimization on Streaming Inputs (<A href="Miner.pdf">pdf</A>)<br />
+				Mihaela A. Bornea, Vasilis Vassalos, Yannis Kotidis, Antonios Deligiannakis<br />
+				IEEE Transactions on Knowledge and Data Engineering(<font color="#000080">"Best of ICDE 2009" Special Issue</font>)<br /><br /</li>
+
+				<li>A Novel and Efficient Stream to Relation Join Operator<br />
+				Mihaela A. Bornea, Antonios Deligiannakis, Yannis Kotidis, Vasilis Vassalos<br />
+				Under submission to VLDB Journal<br /><br /</li>
+				</ol>
+				
+				<h4>Posters</h4>
+				<ol type="1">
+ 				<li>DINER in ICDE 2009 (<A href="DINER-poster.pdf">pdf</A>)<br />				
+				Mihaela A. Bornea, Antonios Deligiannakis, Yannis Kotidis, Vasilis Vassalos<br /><br /></li>
+				</ol>
+				<hr />
+				<h2><font color="#004080">Background.<a name="background"></a></font></h2>
+				 <ul>
+ 				 <li>M.S. from Politechnica University of Bucharest, Romania<br />
+ 	  			 Computer Science and Engineering Department<br /><br /></li>
+  				 <li>B.S. from Politechnica University of Bucharest, Romania<br />
+    				Computer Science and Engineering Department</li>
+				</ul>
+				My resume can be found in <A href="cv.pdf">here</A><br />.<br /><br />
+				<hr />
+				
+				<h2><font color="#004080">Internships<a name="internships"></a></font></h2>
+				<ul><li>Microsoft Resarch Cambridge, UK, 2008-2009<br />
+    					Mentor: Sameh Elnikety, Orion Hodson</li></ul> 
+				<hr />
+				
+				<h2><font color="#004080">Professional Service.<a name="service"></a></font></h2>
+				<h4>External Conference Reviewer:</h4>  
+				 <ul>
+				 <li>2010: SIGMOD, ICDE, EDBT</li>
+				 <li>2009: VLDB, ICDE</li>			
+				 </ul>
+  				<h4>Teaching Assistant at AUEB:</h4>
+    			<ul><li>Databases - Spring 2008, Spring 2009</li></ul>
+				<hr />
+				
+    			</div>
+		</div>
+		<div id="navigation">
+			<img border="0" src="profile.JPG" width="200" height="180" />
+			<ul>
+				<li><a href="#home">About me</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#research">Research Interests</a></li>
+				<li><a href="#publications">Publications</a></li>
+				<li><a href="#background">Background</a></li>
+				<li><a href="#internships">Internships</a></li>
+				<li><a href="#service">Professional Service</a></li>
+			</ul>
+		</div>
+		<div id="footer">
+			<ul>
+				<li><a href="#home">About me</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#research">Research Interests</a></li>
+				<li><a href="#publications">Publications</a></li>
+				<li><a href="#background">Background</a></li>
+				<li><a href="#internships">Internships</a></li>
+				<li><a href="#service">Professional Service</a></li>
+			</ul>			
+		</div>
+	</div>
+</body>
+</html>
+
